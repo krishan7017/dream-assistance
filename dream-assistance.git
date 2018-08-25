@@ -1,0 +1,32 @@
+print("Welcome ! In my Dream Assitant")
+user = input('Are you new user ? [y/n]')
+if user == "y" :
+    input("Enter your name : ")
+    input( "Enter your password : ") 
+    input("Confirm password : ")
+else :
+    login = input("Your login Id : ")
+    password = input("Your password : ")
+    if login and password == "admin" :
+         print ("Hey hello, Admin")
+         print("I am your Assistant..")
+         print ("Please Introduce  yourself  .. so that, I can know you more")
+         x = input()
+         if x == "my name is sapna gupta" :
+             print("oh! nice to meet you..")
+             print("My owner krishna mohan took inspiration from you and made it..")
+         else :
+             print ("Nice to meet you" + x[10:])
+        y = input("Do you want to ask me something ? ")
+           if y == yes :
+               z = input("yes, what ?")
+                if z == "what are your features ? " or "what can you do ? " :
+                    print("i am testing version.. i will be upgrade my owner...")
+                else :
+                    print(okay..)
+           else :
+               print(okay! bye..)
+    else :
+     print ("Invalid credential !")
+     print ("Restart the program....Bye")
+
